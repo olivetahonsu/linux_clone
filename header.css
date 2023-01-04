@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    height: fit-content;
+   
+}
+
+img{
+    width: 133px;
+    height: 33px;
+    
+}
+
+.class-pro{
+    color: antiquewhite;
+}
+
+.goto-class{
+    color: antiquewhite;
+    margin-right: 0px;
+}
+
+.angle-right{
+    color: antiquewhite;
+    margin-left: 0px;
+}

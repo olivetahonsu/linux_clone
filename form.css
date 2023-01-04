@@ -1,0 +1,73 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
+   
+    padding: 10px 35px 45px 35px;
+    margin-left: 20px;
+   
+}
+
+#circle-check{
+   margin-top: 20px;
+   background-color: brown;
+}
+
+.numbers{
+    color: red;
+    padding-right: 10px;
+}
+
+.questions{
+    padding: 8px;  
+}
+
+#first{
+    width: 400px;
+   
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: lightsteelblue;;
+    height: 15px;
+    width: 90%;
+    margin-left: 22px;
+    padding: 10px;
+}
+
+.yes, #yes{
+    background-color: lightsteelblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    margin-left: 22px;
+    cursor: pointer;
+    border: none;
+}
+
+.no, #no{
+    background-color: lightsteelblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.show{
+    visibility: visible;
+    
+}
+
+.hidden{
+    visibility: hidden;
+}
